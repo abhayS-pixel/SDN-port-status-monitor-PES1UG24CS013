@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # SDN-port-status-monitor-PES1UG24CS013
 =======
 # SDN Mini Project: Port Status Monitoring Tool
