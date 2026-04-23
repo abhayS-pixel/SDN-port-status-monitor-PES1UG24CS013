@@ -1,0 +1,13 @@
+ALERT [2026-04-17 13:12:03] switch=s1 port=2 name=s1-eth2 state=DOWN reason=MANUAL
+ALERT [2026-04-17 14:41:41] switch=s1 port=2 name=s1-eth2 state=DOWN reason=MANUAL
+ALERT [2026-04-20 15:11:06] switch=s1 port=2 name=s1-eth2 state=DOWN reason=MANUAL
+ALERT [2026-04-20 15:32:46] switch=s1 port=2 name=s1-eth2 state=DOWN reason=MANUAL
+ALERT [2026-04-20 15:33:01] switch=s1 port=2 name=s1-eth2 state=DOWN reason=MANUAL
+ALERT [2026-04-20 15:59:40] switch=s1 port=1 name=s1-eth1 state=DOWN reason=MANUAL
+ALERT [2026-04-20 15:59:42] switch=s2 port=2 name=s2-eth2 state=DOWN reason=MANUAL
+ALERT [2026-04-20 16:00:14] switch=s1 port=1 name=s1-eth1 state=DOWN reason=MANUAL
+ALERT [2026-04-20 16:00:16] switch=s2 port=2 name=s2-eth2 state=DOWN reason=MANUAL
+ALERT [2026-04-20 16:18:25] switch=s1 port=1 name=s1-eth1 state=DOWN reason=MANUAL
+ALERT [2026-04-20 16:18:27] switch=s2 port=2 name=s2-eth2 state=DOWN reason=MANUAL
+ALERT [2026-04-20 16:18:43] switch=s1 port=1 name=s1-eth1 state=DOWN reason=MANUAL
+ALERT [2026-04-20 16:18:45] switch=s2 port=2 name=s2-eth2 state=DOWN reason=MANUAL

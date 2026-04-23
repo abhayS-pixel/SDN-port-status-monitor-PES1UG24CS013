@@ -1,0 +1,150 @@
+{
+  "ports": [
+    {
+      "timestamp": "2026-04-20 16:18:49",
+      "switch": "s1",
+      "port_no": 1,
+      "port_name": "s1-eth1",
+      "reason": "MANUAL",
+      "state": "UP",
+      "last_updated": "2026-04-20 16:18:49"
+    },
+    {
+      "timestamp": "2026-04-20 15:59:19",
+      "switch": "s1",
+      "port_no": 2,
+      "port_name": "s1-eth2",
+      "reason": "INITIAL",
+      "state": "UP",
+      "last_updated": "2026-04-20 15:59:19"
+    },
+    {
+      "timestamp": "2026-04-20 15:59:19",
+      "switch": "s2",
+      "port_no": 1,
+      "port_name": "s2-eth1",
+      "reason": "INITIAL",
+      "state": "UP",
+      "last_updated": "2026-04-20 15:59:19"
+    },
+    {
+      "timestamp": "2026-04-20 16:18:45",
+      "switch": "s2",
+      "port_no": 2,
+      "port_name": "s2-eth2",
+      "reason": "MANUAL",
+      "state": "DOWN",
+      "last_updated": "2026-04-20 16:18:45"
+    },
+    {
+      "timestamp": "2026-04-20 16:18:47",
+      "switch": "s3",
+      "port_no": 1,
+      "port_name": "s3-eth1",
+      "reason": "MANUAL",
+      "state": "UP",
+      "last_updated": "2026-04-20 16:18:47"
+    },
+    {
+      "timestamp": "2026-04-20 15:59:19",
+      "switch": "s3",
+      "port_no": 2,
+      "port_name": "s3-eth2",
+      "reason": "INITIAL",
+      "state": "UP",
+      "last_updated": "2026-04-20 15:59:19"
+    }
+  ],
+  "recent_events": [
+    {
+      "timestamp": "2026-04-20 16:18:49",
+      "switch": "s1",
+      "port_no": 1,
+      "port_name": "s1-eth1",
+      "reason": "MANUAL",
+      "state": "UP",
+      "last_updated": "2026-04-20 16:18:49"
+    },
+    {
+      "timestamp": "2026-04-20 16:18:47",
+      "switch": "s3",
+      "port_no": 1,
+      "port_name": "s3-eth1",
+      "reason": "MANUAL",
+      "state": "UP",
+      "last_updated": "2026-04-20 16:18:47"
+    },
+    {
+      "timestamp": "2026-04-20 16:18:45",
+      "switch": "s2",
+      "port_no": 2,
+      "port_name": "s2-eth2",
+      "reason": "MANUAL",
+      "state": "DOWN",
+      "last_updated": "2026-04-20 16:18:45"
+    },
+    {
+      "timestamp": "2026-04-20 16:18:43",
+      "switch": "s1",
+      "port_no": 1,
+      "port_name": "s1-eth1",
+      "reason": "MANUAL",
+      "state": "DOWN",
+      "last_updated": "2026-04-20 16:18:43"
+    },
+    {
+      "timestamp": "2026-04-20 16:18:31",
+      "switch": "s1",
+      "port_no": 1,
+      "port_name": "s1-eth1",
+      "reason": "MANUAL",
+      "state": "UP",
+      "last_updated": "2026-04-20 16:18:31"
+    },
+    {
+      "timestamp": "2026-04-20 16:18:29",
+      "switch": "s3",
+      "port_no": 1,
+      "port_name": "s3-eth1",
+      "reason": "MANUAL",
+      "state": "UP",
+      "last_updated": "2026-04-20 16:18:29"
+    },
+    {
+      "timestamp": "2026-04-20 16:18:27",
+      "switch": "s2",
+      "port_no": 2,
+      "port_name": "s2-eth2",
+      "reason": "MANUAL",
+      "state": "DOWN",
+      "last_updated": "2026-04-20 16:18:27"
+    },
+    {
+      "timestamp": "2026-04-20 16:18:25",
+      "switch": "s1",
+      "port_no": 1,
+      "port_name": "s1-eth1",
+      "reason": "MANUAL",
+      "state": "DOWN",
+      "last_updated": "2026-04-20 16:18:25"
+    },
+    {
+      "timestamp": "2026-04-20 16:00:20",
+      "switch": "s1",
+      "port_no": 1,
+      "port_name": "s1-eth1",
+      "reason": "MANUAL",
+      "state": "UP",
+      "last_updated": "2026-04-20 16:00:20"
+    },
+    {
+      "timestamp": "2026-04-20 16:00:18",
+      "switch": "s3",
+      "port_no": 1,
+      "port_name": "s3-eth1",
+      "reason": "MANUAL",
+      "state": "UP",
+      "last_updated": "2026-04-20 16:00:18"
+    }
+  ]
+}

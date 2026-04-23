@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Port Status Dashboard</title>
+  <meta http-equiv="refresh" content="2">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; background: #f4f4f4; }
+    .box { background: white; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background: #eee; }
+    .alert { color: red; font-weight: bold; margin: 8px 0; }
+  </style>
+</head>
+<body>
+  <h1>Port Status Monitoring Dashboard</h1>
+
+  <div class="box">
+    <h2>Alerts</h2>
+    {% if alerts %}
+      {% for alert in alerts %}
+        <div class="alert">{{ alert }}</div>
+      {% endfor %}
+    {% else %}
+      <p>No alerts yet.</p>
+    {% endif %}
+  </div>
+
+  <div class="box">
+    <h2>Current Port Status</h2>
+    {% if ports %}
+      <table>
+        <tr>
+          <th>Switch</th>
+          <th>Port No</th>
+          <th>Port Name</th>
+          <th>Reason</th>
+          <th>State</th>
+          <th>Last Updated</th>
+        </tr>
+        {% for port in ports %}
+        <tr>
+          <td>{{ port.switch }}</td>
+          <td>{{ port.port_no }}</td>
+          <td>{{ port.port_name }}</td>
+          <td>{{ port.reason }}</td>
+          <td>{{ port.state }}</td>
+          <td>{{ port.last_updated }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    {% else %}
+      <p>No data yet.</p>
+    {% endif %}
+  </div>
+
+  <div class="box">
+    <h2>Recent Events</h2>
+    {% if recent_events %}
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Switch</th>
+          <th>Port</th>
+          <th>Name</th>
+          <th>Reason</th>
+          <th>State</th>
+        </tr>
+        {% for event in recent_events %}
+        <tr>
+          <td>{{ event.timestamp }}</td>
+          <td>{{ event.switch }}</td>
+          <td>{{ event.port_no }}</td>
+          <td>{{ event.port_name }}</td>
+          <td>{{ event.reason }}</td>
+          <td>{{ event.state }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    {% else %}
+      <p>No events yet.</p>
+    {% endif %}
+  </div>
+</body>
+</html>
